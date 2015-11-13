@@ -1,4 +1,5 @@
 ===================================================================
+<<<<<<< HEAD
 JsFile: m1.js
 mapUrl: m1.js.map
 sourceRoot: http://typescript.codeplex.com/
@@ -390,4 +391,11 @@ sourceFile:test.ts
 6 >Emitted(14, 22) Source(12, 25) + SourceIndex(0)
 7 >Emitted(14, 23) Source(12, 26) + SourceIndex(0)
 ---
+=======
+JsFile: test.js
+mapUrl: test.js.map
+sourceRoot: http://typescript.codeplex.com/
+sources: m1.ts,test.ts
+===================================================================
+>>>>>>> master
 >>>//# sourceMappingURL=test.js.map

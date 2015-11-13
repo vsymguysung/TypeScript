@@ -1,4 +1,5 @@
 ===================================================================
+<<<<<<< HEAD
 JsFile: m1.js
 mapUrl: ../mapFiles/m1.js.map
 sourceRoot: 
@@ -391,3 +392,11 @@ sourceFile:../outputdir_module_simple/test.ts
 7 >Emitted(14, 23) Source(12, 26) + SourceIndex(0)
 ---
 >>>//# sourceMappingURL=../mapFiles/test.js.map
+=======
+JsFile: test.js
+mapUrl: ../../mapFiles/test.js.map
+sourceRoot: 
+sources: ../outputdir_module_simple/m1.ts,../outputdir_module_simple/test.ts
+===================================================================
+>>>//# sourceMappingURL=../../mapFiles/test.js.map
+>>>>>>> master

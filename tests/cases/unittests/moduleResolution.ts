@@ -117,6 +117,8 @@ module ts {
                 "/a/b/foo.ts",
                 "/a/b/foo.tsx",
                 "/a/b/foo.d.ts",
+                "/a/b/foo.js",
+                "/a/b/foo.jsx",
                 "/a/b/foo/index.ts",
                 "/a/b/foo/index.tsx",
             ]);
@@ -143,7 +145,7 @@ module ts {
                 "/a/b/c/node_modules/foo/package.json",
                 "/a/b/c/node_modules/foo/index.ts",
                 "/a/b/c/node_modules/foo/index.tsx",
-                "/a/b/c/node_modules/foo/index.d.ts"
+                "/a/b/c/node_modules/foo/index.d.ts",
             ])
         });
 

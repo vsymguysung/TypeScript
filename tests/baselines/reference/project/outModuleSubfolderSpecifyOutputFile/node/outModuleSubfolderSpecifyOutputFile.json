@@ -13,9 +13,14 @@
         "test.ts"
     ],
     "emittedFiles": [
+<<<<<<< HEAD
         "ref/m1.js",
         "ref/m1.d.ts",
         "test.js",
         "test.d.ts"
+=======
+        "bin/test.js",
+        "bin/test.d.ts"
+>>>>>>> master
     ]
 }

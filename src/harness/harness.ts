@@ -1171,7 +1171,7 @@ namespace Harness {
                     }
                     else if (isTS(file.unitName)) {
                         const declFile = findResultCodeFile(file.unitName);
-                        if (!findUnit(declFile.fileName, declInputFiles) && !findUnit(declFile.fileName, declOtherFiles)) {
+                        if (declFile && !findUnit(declFile.fileName, declInputFiles) && !findUnit(declFile.fileName, declOtherFiles)) {
                             dtsFiles.push({ unitName: declFile.fileName, content: declFile.code });
                         }
                     }
